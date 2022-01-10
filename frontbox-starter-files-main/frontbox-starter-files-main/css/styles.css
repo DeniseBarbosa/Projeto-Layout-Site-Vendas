@@ -53,6 +53,9 @@ p{
 /**********************************/
 /* 1. Estilos gerais
 /**********************************/
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: var(--clr-branco);
 	font-family: var(--ff-primary);
@@ -336,4 +339,10 @@ a:link{
 /**********************************/
 /* 9. Footer
 /**********************************/
-
+.footer{
+	background-color: var(--clr-rosa-claro);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 55px calc((100% - 960px) / 2);
+}
